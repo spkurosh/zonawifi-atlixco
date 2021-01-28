@@ -1,0 +1,445 @@
+/*
+    1. Posicionamiento
+    2. Módelo Caja (box model)
+    3. Tipografía
+    4. Visuales
+    5. Otros
+*/
+:root{
+    /* Colores */
+    --black: #1b262c;
+    --navy-blue: #0f4c75;
+    --blue: #3282b8;
+    --light-blue: #bbe1fa;
+    
+    --grey: #bababa;
+    --off-white: #faf8f7;
+    --just-white: #fff;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif ;
+}
+
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+    background: linear-gradient(207.8deg, var(--black) 16.69%, var(--navy-blue) 100%);
+}
+
+header img{
+    width: 120px;
+    margin-top: 60px;
+    align-self: center;
+}
+.header--title-container{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 40px;
+    text-align: center;
+    align-self: center;
+}
+.header--title-container h1{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.header--title-container p{
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--light-blue);
+}
+.header--title-container .header--button{
+    position: absolute;
+    left: calc(50% - 118px);
+    top: 270px;
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    background-color: var(--off-white);
+    /* Sombra*/
+    box-shadow: 0px 4px 8px rgba(89,73,30,0.16);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.header--title-container span{
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url('../assets/icons/down-arrow.svg');
+}
+main{
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+.main-velocidades-container{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.main-velocidades-container--title{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.main-velocidades-container .backgroundImg{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-image: url('../assets/img/networking.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-velocidades-container h2{
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+.main-velocidades-container p{
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: #757575;
+}
+.main-anchoBandaVideo-table{
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+}
+.main-anchoBandaVideo-table .anchoBandaVideo-table--title{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--blue);
+}
+.anchoBandaVideo-table--container{
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+}
+.anchoBandaVideo-table--container table{
+    width: 100%;
+    height: 100%;
+}
+.anchoBandaVideo-table--container th{
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: #757575;
+    background-color: var(--just-white);
+}
+.anchoBandaVideo-table--container td{
+    width: 33%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: var(--grey);
+    background-color: var(--just-white);
+}
+.anchoBandaVideo-table--container .table__top-left{
+    border-radius: 15px 0 0 0;
+}
+.anchoBandaVideo-table--container .table__top-right{
+    border-radius: 0 15px 0 0;
+}
+.anchoBandaVideo-table--container .table__bottom-left{
+    border-radius: 0 0 0 15px;
+}
+
+.anchoBandaVideo-table--container .table__bottom-right{
+    border-radius: 0 0 15px 0;
+}
+.anchoBandaVideo-table--container .table__right{
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.7rem;
+    color: #757575;
+}
+/* --------------------- */
+.main-product-detail{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--navy-blue);
+}
+.product-detail--wifi-logo{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -25px;
+    left: calc(50% - 20px);
+    background-image: url('../assets/icons/wireless-cloud-access.png');
+    background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+}
+.product-detail--title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.product-detail--title h2{
+   margin-bottom: 20px;
+   font-size: 2.4rem;
+   font-weight: bold;    
+   line-height: 2.6rem;
+   color: var(--just-white);
+}
+.product-detail--title p{
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;    
+    line-height: 1.8rem;
+    color: var(--light-blue);
+ }
+ .product-detail--card{
+     width: 90%;
+     min-width: 282px;
+     max-width: 400px;
+     min-height: 150px;
+     margin: 15px auto;
+     padding: 15px;
+     background-color: var(--just-white);
+     border-radius: 5px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+     text-align: left;
+ }
+ .product-detail--card .icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.remove-document{
+    background-image: url('../assets/icons/remove-document.png');
+ }
+ .remove-peso{
+    background-image: url('../assets/icons/delete-peso.png');
+ }
+ .cash-receipt{
+    background-image: url('../assets/icons/cash-receipt.png');
+ }
+ .multimedia{
+    background-image: url('../assets/icons/multimedia.png');
+ }
+ .product-detail--card .product--card-title{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--black);
+ }
+ .product-detail--card .product--card-body{
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+ }
+ .person-img-container{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('../assets/img/comodin-section.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: rgba(15, 76, 117, 0.6);
+    background-blend-mode: multiply; 
+}
+.person-img-container h2{
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.main-plans-container{
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.plans--title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.plans--title h2{
+    padding-top: 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+.plans--title p{
+   padding-top: 30px;
+   font-size: 1.4rem;
+   font-weight: 500;
+   line-height: 1.8rem;
+   color: #757575;
+}
+.plans-container--slider{
+   display: flex;
+   height: 316px;
+   overflow-x: scroll;
+   overscroll-behavior-x: contain;
+   scroll-snap-type: x proximity;
+}
+
+  
+.plans-container--card{
+    position: relative;
+    scroll-snap-align: center;
+    width: 70%;
+    min-width: 190px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px 5px 0;
+    padding: 0 15px;
+    background-color: var(--just-white);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgb(89, 73, 30,0.16);
+}
+.recommended{
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    padding: 6px;
+    top: -15px;
+    left: calc(50% - 60px);
+    font-size: 1.2rem;
+    background-color: var(--blue);
+    border-radius: 8px;
+    color: var(--just-white);
+}
+.plan-card--title{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: black;
+}
+.plan-card--price{
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 5.3rem;
+    color: black;
+
+}
+.plan-card--price span{
+    font-size: 1.2rem;
+    font-weight: 300;
+    vertical-align: 25px;
+}
+.plan-card--saving{
+    font-size: 1.2rem;
+    color: #757575;
+}
+.plan-card--ca{
+    width: 250px;
+    height: 48px;
+    margin-top: 50px;
+    background-color: #faf8f7;
+    font-family: 'DM Sans', sans-serif ;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--black);
+    text-decoration: none;
+}
+.plan-card--ca span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/icons/whatsapp.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    vertical-align: text-bottom;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: var(--navy-blue);
+}
+footer section{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+footer .left ul{
+    font-size: 1.4rem;
+    font-weight: 500px;
+    line-height: 1.8rem;
+    list-style: none;
+}
+.left li{
+    margin: 10px 0;
+}
+.left a{
+    text-decoration: none;
+    color: var(--just-white);
+}
+
+footer img{
+    width: 120px;
+    align-self: center;
+}
