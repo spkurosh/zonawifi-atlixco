@@ -39,6 +39,13 @@ header{
     background: linear-gradient(207.8deg, var(--black) 16.69%, var(--navy-blue) 100%);
 }
 
+header .icon-menu{
+     display: none;
+}
+.header-nav-menu{
+    display: none;
+}
+
 header img{
     width: 120px;
     margin-top: 60px;
@@ -442,4 +449,28 @@ footer .left ul{
 footer img{
     width: 120px;
     align-self: center;
+}
+
+footer .footer-facebook-logo{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/icons/facebook-logo.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    vertical-align: text-bottom;
+}
+
+footer .footer-whatsapp-logo{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/icons/whatsapp-white-logo.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    vertical-align: text-bottom;
 }
