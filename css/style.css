@@ -25,6 +25,7 @@
 html{
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif ;
+    scroll-behavior: smooth;
 }
 
 header{
@@ -340,7 +341,7 @@ main{
 }
 .plans-container--slider{
    display: flex;
-   height: 316px;
+   height: 320px;
    overflow-x: scroll;
    overscroll-behavior-x: contain;
    scroll-snap-type: x proximity;
@@ -399,7 +400,6 @@ main{
 .plan-card--ca{
     width: 250px;
     height: 48px;
-    margin-top: 50px;
     background-color: #faf8f7;
     font-family: 'DM Sans', sans-serif ;
     font-size: 1.4rem;
