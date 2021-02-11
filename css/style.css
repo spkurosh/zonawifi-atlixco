@@ -39,6 +39,48 @@ header{
     text-align: center;
     background: linear-gradient(207.8deg, var(--black) 16.69%, var(--navy-blue) 100%);
 }
+header .dropbtn{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url('../assets/icons/menu-icon.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 45px;
+    right: 15px;
+    background-color: var(--just-white);
+    width: 290px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+
+.dropdown-content a:hover {background-color: var(--light-blue)}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 header .icon-menu{
      display: none;
@@ -52,6 +94,7 @@ header img{
     margin-top: 60px;
     align-self: center;
 }
+
 .header--title-container{
     width: 90%;
     min-width: 288px;
