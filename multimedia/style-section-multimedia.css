@@ -1,0 +1,39 @@
+.main-velocidades-container .backgroundImg-plex{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-image: url('../assets/img/multimedia.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.android-icon{
+    background-image: url('../assets/icons/android.png');
+ }
+ .ios-icon{
+    background-image: url('../assets/icons/ios.png');
+ }
+ .game-controller-icon{
+    background-image: url('../assets/icons/game-controller.png');
+}
+.plex-img-container{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('../assets/img/zwa-plex.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: rgba(15, 76, 117, 0.6);
+    background-blend-mode: multiply; 
+}
+
+.plex-img-container h2{
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
