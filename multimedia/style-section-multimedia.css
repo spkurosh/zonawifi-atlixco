@@ -57,6 +57,37 @@
     background-repeat: no-repeat;
 }
 
+.main-velocidades-container .backgroundImg-ios{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-image: url('../assets/img/ios.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-velocidades-container .backgroundImg-pc{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-image: url('../assets/img/pc.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-velocidades-container .backgroundImg-console{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-image: url('../assets/img/console.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .dot-icon{
     background-image: url('../assets/icons/arrow.png');
 }
@@ -85,4 +116,23 @@
     background-repeat: no-repeat;
     background-image: url('../assets/img/menu_plex.jpeg');
 }
+.plex-menu-app-ios{
+    display: inline-block;
+    width: 350px;
+    height: 600px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../assets/img/ios-menu.jpg');
+}
+.plex-menu-app-pc{
+    display: inline-block;
+    width: 370px;
+    height: 600px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../assets/img/pc-menu.png');
 
