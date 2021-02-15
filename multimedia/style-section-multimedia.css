@@ -37,3 +37,52 @@
     line-height: 2.6rem;
     color: var(--just-white);
 }
+
+.product-detail--card a{
+    text-decoration: none;
+    color: var(--black);
+}
+.product-detail--card a:visited {
+    color: var(--black);
+  }
+
+  .main-velocidades-container .backgroundImg-android{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-image: url('../assets/img/android.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dot-icon{
+    background-image: url('../assets/icons/arrow.png');
+}
+.product-detail--card{
+    height: auto;
+}
+.product-card-list .icon{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.plex-app-icon{
+    background-image: url('../assets/img/plex-logo.png');
+}
+.plex-menu-app-icon{
+    display: inline-block;
+    width: 300px;
+    height: 600px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../assets/img/menu_plex.jpeg');
+}
+
