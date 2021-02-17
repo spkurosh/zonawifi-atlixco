@@ -1,0 +1,87 @@
+.main-velocidades-container .backgroundImg-tools{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-image: url('../assets/img/tools.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.router-icon{
+    background-image: url('../assets/icons/router.png');
+ }
+ .ethernet-icon{
+    background-image: url('../assets/icons/ethernet.png');
+ }
+.tools-img-container{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('../assets/img/support-network.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: rgba(15, 76, 117, 0.6);
+    background-blend-mode: multiply; 
+}
+.tools-img-container h2{
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.product-detail--card a{
+    text-decoration: none;
+    color: var(--black);
+}
+.product-detail--card a:visited {
+    color: var(--black);
+  }
+  .main-velocidades-container .backgroundImg-router{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-image: url('../assets/img/router.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.router-navbar{
+    display: inline-block;
+    width: 300px;
+    height: 600px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../assets/img/navbar.jpg');
+}
+.router-img-container{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('../assets/img/router-banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: rgba(15, 76, 117, 0.6);
+    background-blend-mode: multiply; 
+}
+.router-img-container h2{
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.router-menu{
+    background-image: url('../assets/img/menu-router.jpg');
+}
+.password{
+    background-image: url('../assets/img/password.jpg');
+}
