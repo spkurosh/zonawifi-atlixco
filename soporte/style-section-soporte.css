@@ -85,3 +85,22 @@
 .password{
     background-image: url('../assets/img/password.jpg');
 }
+.poe{
+    background-image: url('../assets/img/poe.jpg');
+}
+.main-velocidades-container .backgroundImg-cableado{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-image: url('../assets/img/cableado.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.poe-antena{
+    background-image: url('../assets/img/poe-antena.jpg');
+}
+.poe-lan{
+    background-image: url('../assets/img/poe-lan.jpg');
+}
